@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="calculator">
+        <div id="result">
+            <p id="resultText"></p>
+        </div>
+        <div id="buttonsContainer">
+            <button onclick="clearButton()">C</button>
+            <button onclick="getOperator(1)">÷</button>
+            <button onclick="getOperator(2)">x</button>
+            <button onclick="deleteButton()">⌫</button>
+
+            <button onclick="getNum(1)">1</button>
+            <button onclick="getNum(2)">2</button>
+            <button onclick="getNum(3)">3</button>
+            <button onclick="getOperator(3)">+</button>
+            <button onclick="getNum(4)">4</button>
+            <button onclick="getNum(5)">5</button>
+            <button onclick="getNum(6)">6</button>
+            <button onclick="getOperator(4)">-</button>
+            <button onclick="getNum(7)">7</button>
+            <button onclick="getNum(8)">8</button>
+            <button onclick="getNum(9)">9</button>
+            <button onclick="getDot()">.</button>
+            <button onclick="getNum(0)">0</button>    
+            <button onclick="equalButton()">=</button>   
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
